@@ -1,0 +1,14 @@
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+}
+
+.animate-rotate {
+  animation: rotateIcon 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
